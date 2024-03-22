@@ -22,7 +22,7 @@
 
     <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
 
-    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
 
     <!-- Cascadia Code -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css"> 
@@ -121,7 +121,7 @@
 
 <span class="token tag">const app = express();</span>
 
-<span class="token tag">app.use('/api', createProxyMiddleware({ target: 'http://www.example.org', changeOrigin: true }));</span>
+<span class="token tag">app.use('./api', createProxyMiddleware({ target: 'http://www.example.org', changeOrigin: true }));</span>
 <span class="token tag">app.listen(3000);</span>
 
 <span class="token tag text-gray-50">// http://localhost:3000/api/foo/bar -> http://www.example.org/api/foo/bar</span>
